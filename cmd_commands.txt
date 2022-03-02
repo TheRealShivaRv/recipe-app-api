@@ -1,0 +1,2 @@
+STARTING THE DJANGO SERVER:-
+docker-compose run -p 8000:8000 app sh -c "python manage.py runserver 0.0.0.0:8000"

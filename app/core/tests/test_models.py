@@ -24,3 +24,6 @@ class ModelTests(TestCase):
         user = get_user_model().objects.create_superuser('abc@abcmail.com','test123')
         self.assertTrue(user.is_superuser)
         self.assertTrue(user.is_active)
+
+
+        
